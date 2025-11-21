@@ -146,8 +146,8 @@ export const projects = [
       "Component Architecture",
     ],
 
-    github: "https://github.com/your-username/product-gallery",
-    demo: "https://your-demo-link.com/product-gallery",
+    github: "https://github.com/hawiDibaba/product-gallery",
+    demo: "https://my-demo-link.com/product-gallery",
   },
   {
     name: "Interactive Resume",
@@ -168,8 +168,8 @@ export const projects = [
       "Conditional Rendering",
     ],
 
-    github: "https://github.com/your-username/interactive-resume",
-    demo: "https://your-demo-link.com/resume",
+    github: "https://github.com/hawiDibaba/interactive-resume",
+    demo: "https://interactive-resume-blush.vercel.app/",
   },
 ];
 
