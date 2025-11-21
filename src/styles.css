@@ -1,0 +1,240 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+
+header .title-row {
+  text-align: center;
+}
+
+header .subtitle {
+  color: #555;
+  font-size: 26px;
+  font-weight: 600;
+  margin: unset;
+}
+
+header .location {
+  color: #777;
+  font-size: 16px;
+}
+
+header .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 16px;
+}
+
+header .locClearance {
+  display: flex;
+  gap: 12px;
+  color: #777;
+  font-weight: 600;
+}
+
+header .links a,
+.project-links a {
+  color: #0b6bcb;
+  text-decoration: none;
+}
+
+.project-item {
+  background: #fafafa;
+  padding: 16px 18px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.project-item + .project-item {
+  margin-top: 24px;
+}
+
+.project-links {
+  display: flex;
+  gap: 12px;
+}
+
+.project-header {
+  font-weight: 600;
+}
+
+header .links a:not(:first-child)::before,
+header .locClearance div:not(:first-child)::before,
+.project-links a:not(:first-child)::before {
+  content: ".";
+  padding-right: 12px;
+  color: #777;
+  font-size: 30px;
+  line-height: 0;
+}
+
+header .links a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.section-content {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 18px;
+  border: 1px solid #e2e2e2;
+}
+
+.experience-item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.experience-item + .experience-item {
+  margin-top: 24px;
+}
+
+.experience-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.experience-role {
+  font-weight: 600;
+  margin: unset;
+}
+
+.experience-company {
+  color: #444;
+  margin: unset;
+  font-weight: 500;
+}
+
+.experience-period,
+.experience-location {
+  font-size: 16px;
+  color: #777;
+  margin: unset;
+}
+
+.experience-bullets {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 12px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+.experience-bullets li {
+  margin-bottom: 4px;
+}
+
+.experience-bullets li.mainProj {
+  margin-bottom: 20px;
+}
+
+ul.project-description-list {
+  list-style-type: circle;
+}
+
+.chip-list {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chip {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #eef4ff;
+  color: #274472;
+}
+
+section.skills-section:not(:first-child) {
+  margin-bottom: unset;
+}
+
+section.skills-section h3 {
+  margin-top: 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.skills-list li {
+  list-style: none;
+  background: #f0f0f0;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 0.9rem;
+}
+
+.education-item {
+  margin-bottom: 8px;
+}
+
+.education-degree {
+  font-weight: 600;
+}
+
+.education-school {
+  color: #444;
+}
+
+.education-period {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
