@@ -5,7 +5,7 @@ export const profile = {
   clearance: "Public Trust",
   email: "hawi55us@gmail.com",
   linkedin: "https://www.linkedin.com/in/hawi-dibaba",
-  github: "https://github.com/hawiDibaba,
+  github: "https://github.com/hawiDibaba",
   summary:
     "UI and Front-End Developer with 8+ years of experience delivering accessible, responsive, production-grade interfaces for large federal programs. Focused on building reliable, user-centered web applications with React and modern front-end practices. Known for improving performance, ensuring Section 508 compliance, and collaborating closely with product, design, and back-end teams. Adapts quickly to new tools and frameworks and consistently delivers clean, maintainable code across complex enterprise environments.",
 };
