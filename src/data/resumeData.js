@@ -43,7 +43,7 @@ export const experience = [
       {
         text: "FDA CDRH — Delivered and maintained enterprise web UIs for regulated workflows.",
         details: [
-          "Stack: HTML, CSS/Sass, JavaScript, jQuery",
+          "Stack: React, jQuery, JavaScript, HTML, CSS/Sass",
           "Accessibility: implemented Section 508/WCAG-compliant patterns; semantic HTML, proper ARIA, keyboard/focus management, color-contrast remediation",
           "Learned Pega’s front-end layer to integrate with Pega-based services; partnered with Pega back-end developers",
           "Mentored junior developers on front-end best practices and code quality",
