@@ -38,7 +38,7 @@ export const experience = [
     company: "Booz Allen Hamilton",
     role: "Senior UI / Front-End Developer",
     location: "Remote",
-    period: "March 2017 - Present",
+    period: "March 2017 - October 2025",
     bullets: [
       {
         text: "FDA CDRH — Delivered and maintained enterprise web UIs for regulated workflows.",
